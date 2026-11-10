@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  color: #183b47;
+  background-color: #f5f7f7;
+}
+
+.site-navbar {
+  padding: 20px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e8e9;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #164d50;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.site-brand small {
+  display: block;
+  color: #58747e;
+  font-size: 0.6rem;
+}
+
+.site-navbar .nav-link {
+  color: #365a66;
+}
+
+main {
+  min-height: 75vh;
+  padding: 35px 0 50px;
+}
+
+.page-intro {
+  margin-bottom: 30px;
+}
+
+.eyebrow {
+  color: #127863;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.page-intro > p:last-child {
+  color: #59727b;
+}
+
+.info-section {
+  margin-top: 40px;
+}
+
+.section-heading {
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+}
+
+.btn-primary {
+  background-color: #146b5b;
+  border-color: #146b5b;
+}
+
+.info-card {
+  border-color: #dce6e6;
+}
+
+.info-card .card-body {
+  padding: 24px;
+}
+
+.card-highlight {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #187662;
+}
+
+.info-card .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.info-card .card-text {
+  color: #5c747d;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.ranking-section {
+  padding: 20px;
+  border: 1px solid #dce6e6;
+  background-color: #fff;
+}
+
+.ranking-heading {
+  margin-bottom: 24px;
+}
+
+.ranking-heading h2 {
+  font-size: 1.3rem;
+}
+
+.ranking-heading p,
+.ranking-note {
+  color: #607983;
+  font-size: 0.82rem;
+  line-height: 1.8;
+}
+
+.ranking-label {
+  color: #146b5b;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.ranking-table {
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+
+.ranking-table thead th {
+  background-color: #123c49;
+  color: #fff;
+  padding: 14px;
+}
+
+.ranking-table tbody td,
+.ranking-table tbody th {
+  padding: 14px;
+}
+
+.ranking-table tbody th {
+  min-width: 220px;
+}
+
+.rank-position,
+.enrollment-number {
+  color: #146b5b;
+  font-weight: bold;
+}
+
+.ranking-table caption {
+  font-size: 0.75rem;
+}
+
+.site-footer {
+  padding: 27px 0;
+  background-color: #123c49;
+  color: #dae8eb;
+  font-size: 0.8rem;
+}
+
+.site-footer a {
+  color: #dae8eb;
+}
